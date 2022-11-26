@@ -1,10 +1,11 @@
 import perfil from '../assets/perfil1910.svg'
+import { Link } from "react-router-dom"
 import '../style/utils.css'
 export default function ProfileApp (){
     return(
-        <div className='flex flex-col items-center mt-2.5'>
-            <h1 className='text-5xl font-title uppercase'>Lila Sarfson</h1>
-            <img className='w-8/12' src={perfil} />
+        <div className='flex flex-col items-center'>
+            <h1 className='text-6xl font-title uppercase'>Lila Sarfson</h1>
+           <Link to='/'><img className='w-10/12 m-auto' src={perfil} /></Link>
         </div>
     )
 }
