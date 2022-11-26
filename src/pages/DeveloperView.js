@@ -4,7 +4,9 @@ import MenuApp from '../components/MenuApp'
 import CardProject from '../components/CardProject'
 import Door from '../assets/exit-door.png'
 import { Link } from 'react-router-dom'
+import data from '../data/dataDev.json'
 export default function DeveloperView (){
+   const dataProject = data.proyectos
     return(
         <div className='flex flex-row h-full w-full text-xl'>
             <div className='flex flex-col w-4/12 justify-between items-center bg-azul'>
@@ -15,7 +17,7 @@ export default function DeveloperView (){
                 <MenuApp direction={'flex-row'} directionLi={'flex-col'}/>
             </div>
             <div className='flex flex-col w-full justify-center'>
-                <CardProject/>
+            {dataProject.map((project, index) => <CardProject key={index} titlte={project.titulo}/>)}
             </div>
             <Link className='w-12 h-12 self-end m-4' to='/'><img src={Door}/></Link>
         </div>

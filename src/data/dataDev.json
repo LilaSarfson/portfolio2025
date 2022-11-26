@@ -1,0 +1,21 @@
+{ "proyectos":[
+     {
+    "titulo":" Barrio",
+    "tecnologias":"vue.js",
+    "imagen":"url",
+    "id":1
+    },
+{
+    "titulo":"Freeway",
+    "tecnologias":"vue.js",
+    "imagen":"url",
+    "id":2
+    },
+ {
+    "titulo":"DropBox",
+    "tecnologias":"vue.js",
+    "imagen":"url",
+    "id":3
+    }    
+]  
+}
