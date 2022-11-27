@@ -6,6 +6,7 @@ export default function CardProject (props) {
                 <div className={`${props.colour} rounded-full border-full w-10 h-10 self-center`}></div>
                 <h3 className="font-poke">{props.titulo}</h3>
                 <span className="rotate-90">></span>
+                <p className="font-phrase">{props.description}</p>
             </div>
         </div>
     )

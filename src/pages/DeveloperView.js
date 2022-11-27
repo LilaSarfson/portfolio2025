@@ -20,7 +20,7 @@ export default function DeveloperView (){
             </div>
             <div className='flex flex-col w-full justify-center'>
             <h3 className='text-center'>Projects</h3>
-            {dataProject.map((proyect, index) => <CardProject colour={proyect.tecnologias==='vue.js' ? 'bg-verde' : proyect.tecnologias==='react.js' ?'bg-rojo' : 'bg-amarillo'} key={index} titulo={proyect.titulo}/>)}
+            {dataProject.map((proyect, index) => <CardProject colour={proyect.tecnologias==='vue.js' ? 'bg-verde' : proyect.tecnologias==='react.js' ?'bg-rojo' : 'bg-amarillo'} key={index} titulo={proyect.titulo} description={proyect.description}/>)}
             </div>
             <Link className='w-12 h-12 self-end m-4' to='/'><img src={Door}/></Link>
         </div>

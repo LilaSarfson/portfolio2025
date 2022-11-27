@@ -2,21 +2,25 @@
     {
     "titulo":"Barrio",
     "tecnologias":"vue.js",
-    "imagen":"url"
+    "imagen":"url",
+    "description":"blablblablalblba"
     },
      {
     "titulo":"Freeway",
     "tecnologias":"vue.js",
-    "imagen":"url"
+    "imagen":"url",
+    "description":"blablblablalblba"
     },
   {
     "titulo":"DropBox",
     "tecnologias":"react.js",
-    "imagen":"url"
+    "imagen":"url",
+    "description":"blablblablalblba"
     },    
     {
         "titulo":"DropBox",
         "tecnologias":"JavaScript",
-        "imagen":"url"
+        "imagen":"url",
+        "description":"blablblablalblba"
         }    
 ]

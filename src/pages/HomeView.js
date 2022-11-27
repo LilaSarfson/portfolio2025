@@ -12,7 +12,7 @@ export default function HomeView (){
    <div className="flex flex-col items-center w-full h-full justify-between text-2xl">
         <div className="flex flex-col justify-center w-full h-5/6 items-center gap-10">
             <ProfileApp/>
-            <CardText description={activeAbout ? data.descripcion : activeCV ? data.cv : data.presentacion} />
+            <CardText active={activeCV} description={activeAbout ? data.descripcion : activeCV ? data.cv : data.presentacion} />
         </div>
         <div className=" h-2/6 flex flex-col justify-between w-full">
             <ListChoice/>
