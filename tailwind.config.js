@@ -11,7 +11,8 @@ module.exports = {
         'verde':'rgb(12, 175, 107)',
         'rosa':'rgb(246, 142, 178)',
         'rojo':'rgb(245, 49, 11)',
-        'azul':'rgb(203, 231, 233)'
+        'azul':'rgb(203, 231, 233)',
+        'azul-css':	'rgb(30,144,255)'
       },
     },
   },
