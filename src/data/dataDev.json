@@ -3,19 +3,22 @@
     "titulo":" Barrio",
     "tecnologias":"vue.js",
     "imagen":"url",
-    "id":1
+    "id":1,
+    "description":"blablalb"
     },
 {
     "titulo":"Freeway",
     "tecnologias":"vue.js",
     "imagen":"url",
-    "id":2
+    "id":2,
+    "description":"blablalb"
     },
  {
     "titulo":"DropBox",
     "tecnologias":"vue.js",
     "imagen":"url",
-    "id":3
+    "id":3,
+    "description":"blablalb"
     }    
     ]  
 }
