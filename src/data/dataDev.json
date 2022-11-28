@@ -1,26 +1,21 @@
-[ 
-    {
-    "titulo":"Barrio",
+{ "proyectos":[
+     {
+    "titulo":" Barrio",
     "tecnologias":"vue.js",
     "imagen":"url",
-    "description":"blablblablalblba"
+    "id":1
     },
-     {
+{
     "titulo":"Freeway",
     "tecnologias":"vue.js",
     "imagen":"url",
-    "description":"blablblablalblba"
+    "id":2
     },
-  {
+ {
     "titulo":"DropBox",
-    "tecnologias":"react.js",
+    "tecnologias":"vue.js",
     "imagen":"url",
-    "description":"blablblablalblba"
-    },    
-    {
-        "titulo":"DropBox",
-        "tecnologias":"JavaScript",
-        "imagen":"url",
-        "description":"blablblablalblba"
-        }    
-]
+    "id":3
+    }    
+    ]  
+}

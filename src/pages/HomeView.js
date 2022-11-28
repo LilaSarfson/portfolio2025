@@ -3,6 +3,7 @@ import CardText from "../components/CardText";
 import ListChoice from "../components/ListChoice";
 import MenuApp from "../components/MenuApp";
 import profileData from '../data/profileData.json'
+import ButtonCv from "../components/ButtonCv";
 import { useState } from "react";
 export default function HomeView (){
     const [activeAbout, setAboutActive]= useState(false);
@@ -12,7 +13,11 @@ export default function HomeView (){
    <div className="flex flex-col items-center w-full h-full justify-between text-2xl">
         <div className="flex flex-col justify-center w-full h-5/6 items-center gap-10">
             <ProfileApp/>
-            <CardText active={activeCV} description={activeAbout ? data.descripcion : activeCV ? data.cv : data.presentacion} />
+            { activeCV ?
+            <ButtonCv setActive={setActiveCV} title={data.cv}/>
+            :
+            <CardText description={activeAbout ? data.descripcion : data.presentacion} />
+            }
         </div>
         <div className=" h-2/6 flex flex-col justify-between w-full">
             <ListChoice/>
