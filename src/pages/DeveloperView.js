@@ -16,7 +16,7 @@ export default function DeveloperView (){
         <>
             <div className='flex flex-row h-full w-full text-xl'>
                 <div className='flex flex-col w-4/12 items-center p-6 bg-azul gap-8'>         
-                        <ProfileApp fontSize={'text-4xl	'} src={perfDev}/>
+                        <ProfileApp fontSize={'text-4xl'} src={perfDev}/>
                         { activeCV ?
                 <ButtonCv setActive={setActiveCV} title={dataProfile.cv}/>
                 :
@@ -24,7 +24,7 @@ export default function DeveloperView (){
                 }
                 <MenuApp setActiveCV={setActiveCV} setActive={setAboutActive} direction={'flex-row'} directionLi={'flex-col'}/>
                 </div>
-                <div className='flex flex-col w-full justify-center items-center gap-4'>
+                <div className='flex flex-row flex-wrap w-full justify-center items-center gap-4'>
                 {dataProject.map((project, index) => <CardProject colour={project.tecnologias==='vue.js' ? 'bg-verde' : project.tecnologias==='react.js' ?'bg-rojo' : 'bg-amarillo'} key={index} titulo={project.titulo} description={project.description}/>)}
                 </div>
             </div>
