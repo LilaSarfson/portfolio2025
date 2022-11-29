@@ -13,7 +13,7 @@ export default function HomeView (){
    return( 
    <div className="flex flex-col items-center w-full h-full justify-between text-2xl">
         <div className="flex flex-col justify-center w-full h-4/6 items-center gap-10">
-            <ProfileApp src={perfil}/>
+            <ProfileApp fontSize={'text-6xl'} src={perfil}/>
             { activeCV ?
             <ButtonCv setActive={setActiveCV} title={data.cv}/>
             :

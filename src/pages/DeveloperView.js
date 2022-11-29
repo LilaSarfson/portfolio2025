@@ -16,7 +16,7 @@ export default function DeveloperView (){
         <>
             <div className='flex flex-row h-full w-full text-xl'>
                 <div className='flex flex-col w-4/12 items-center p-6 bg-azul gap-8'>         
-                        <ProfileApp src={perfDev}/>
+                        <ProfileApp fontSize={'text-4xl	'} src={perfDev}/>
                         { activeCV ?
                 <ButtonCv setActive={setActiveCV} title={dataProfile.cv}/>
                 :
