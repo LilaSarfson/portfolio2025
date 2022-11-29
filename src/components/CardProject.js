@@ -1,7 +1,7 @@
 import { useState } from "react"
 export default function CardProject (props) {
     return(
-        <div className="font-poke flex flex-col items-center justify-center w-3/12 h-2/6 border-4 border-dashed border-black bg-white">
+        <div className="font-poke flex flex-col items-center justify-start w-3/12 h-1/6 border-4 border-dashed border-black bg-white">
            <div className={`${props.colour} rounded-full w-20 h-20 self-center`}></div>
             <h3>{props.titulo}</h3>
             <ul className="flex flex-row">

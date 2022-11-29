@@ -15,13 +15,15 @@ export default function DeveloperView (){
     return(
         <>
             <div className='flex flex-row h-full w-full text-xl'>
-                <div className='flex flex-col w-4/12 items-center p-6 bg-azul gap-8'>         
+                <div className='flex flex-col justify-between w-4/12 items-center bg-azul p-10 gap-8'> 
+                    <div>        
                         <ProfileApp fontSize={'text-4xl'} src={perfDev}/>
                         { activeCV ?
                 <ButtonCv setActive={setActiveCV} title={dataProfile.cv}/>
                 :
                 <CardText description={activeAbout ? dataProfile.descripcionDev : dataProfile   .presentacion} />
                 }
+                    </div>
                 <MenuApp setActiveCV={setActiveCV} setActive={setAboutActive} direction={'flex-row'} directionLi={'flex-col'}/>
                 </div>
                 <div className='flex flex-row flex-wrap w-full justify-center items-center gap-4'>
