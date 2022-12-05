@@ -9,9 +9,12 @@ export default function DeveloperView (){
             {dataProject.map((project, index) => {
             return(<ProjectDev
             key={index}
+            direction={ index%2 ? 'flex-row': 'flex-row-reverse'}
             title={project.titulo}
             description={project.description}
             tecno={project.tecnologias}
+            github={project.githubUrl}
+            demo={project.demo}
             />)})}
         </section>    
     )

@@ -4,35 +4,41 @@
     "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
     "imagen":"url",
     "id":1,
-    "description":"blablalb"
+    "description":"blablalb",
+    "githubUrl":""
     },
 {
     "titulo":"Freeway",
     "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
     "imagen":"url",
     "id":2,
-    "description":"blablalb"
+    "description":"blablalb",
+    "githubUrl":""
     },
  {
     "titulo":"DropBox",
     "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
     "imagen":"url",
     "id":3,
-    "description":"blablalb"
+    "description":"blablalb",
+    "githubUrl":""
+
     },
     {
         "titulo":"DropBox",
         "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
         "imagen":"url",
         "id":3,
-        "description":"blablalb"
+        "description":"blablalb",
+        "githubUrl":""
         },
     {
     "titulo":"DropBox",
     "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
     "imagen":"url",
     "id":3,
-    "description":"blablalb"
+    "description":"blablalb",
+    "githubUrl":""
      }                
     ]  
 }
