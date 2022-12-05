@@ -1,13 +1,18 @@
 
-import CardText from '../components/CardText'
-import CardProject from '../components/CardProject'
+import ProjectDev from '../components/ProjectDev'
 import data from '../data/dataDev.json'
-import perfDev from '../assets/perfdev.svg'
 export default function DeveloperView (){
     const dataProject = data.proyectos
     return(
-        <section className='m-auto w-3/6 h-full'>
+        <section id='programacion' className='m-auto w-4/6 h-full'>
             <h2 className='font-pompi font-bold underline decoration-rosa text-5xl'>Some projects I've built.</h2>
+            {dataProject.map((project, index) => {
+            return(<ProjectDev
+            key={index}
+            title={project.titulo}
+            description={project.description}
+            tecno={project.tecnologias}
+            />)})}
         </section>    
     )
 }
