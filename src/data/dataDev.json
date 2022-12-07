@@ -2,7 +2,7 @@
      {
     "titulo":"Cine de Barrio",
     "tecnologias":["Vue.js", "CSS", "HTML", "BootStrap"],
-    "imagen":"url",
+    "imagen":"cineBarrio.png",
     "id":1,
     "description":"El típico juego de adivinar películas mezclado con el ahoracado, la combinación perfecta para ejercitar la memoria y divertirte pensando en las mejores cintas de tus años mozos! Esta aplicación está pensada para un público anciano, ya que las películas data todas de los años 50.",
     "githubUrl":"",
@@ -20,7 +20,7 @@
  {
     "titulo":"DropBox",
     "tecnologias":["JavaScript", "CSS", "HTML"],
-    "imagen":"url",
+    "imagen":"dropZone.png",
     "id":3,
     "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para la selección de FrontEnd de la Hackathon CruzRoja2022",
     "githubUrl":""

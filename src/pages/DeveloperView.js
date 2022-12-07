@@ -14,6 +14,7 @@ export default function DeveloperView (){
             description={project.description}
             tecno={project.tecnologias}
             github={project.githubUrl}
+            imagen={project.imagen}
             demo={project.demo}
             />)})}
         </section>    
