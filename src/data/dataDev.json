@@ -1,45 +1,45 @@
 { "proyectos":[
      {
-    "titulo":" Barrio",
-    "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
+    "titulo":"Cine de Barrio",
+    "tecnologias":["Vue.js", "CSS", "HTML", "BootStrap"],
     "imagen":"url",
     "id":1,
-    "description":"blablalb",
+    "description":"El típico juego de adivinar películas mezclado con el ahoracado, la combinación perfecta para ejercitar la memoria y divertirte pensando en las mejores cintas de tus años mozos! Esta aplicación está pensada para un público anciano, ya que las películas data todas de los años 50.",
     "githubUrl":"",
     "demo":""
     },
 {
     "titulo":"Freeway",
-    "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
+    "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
     "imagen":"url",
     "id":2,
-    "description":"blablalb",
+    "description":"¿Necesitas ayuda para organizar tus viajes? Freeway es tu solución. Una App sencilla donde quieres ir, con quien y cúanto te vas a gastar. Además, puedes conservar todos esos datos para echarle un vistazo cuando te de morriña.",
     "githubUrl":"",
     "demo":""
     },
  {
     "titulo":"DropBox",
-    "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
+    "tecnologias":["JavaScript", "CSS", "HTML"],
     "imagen":"url",
     "id":3,
-    "description":"blablalb",
+    "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para la selección de FrontEnd de la Hackathon CruzRoja2022",
     "githubUrl":""
 
     },
-    {
-        "titulo":"DropBox",
-        "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
+{
+        "titulo":"CineSeat App",
+        "tecnologias":["Vue.js", "Vuex", "Tailwind"],
         "imagen":"url",
         "id":3,
-        "description":"blablalb",
+        "description":"Gestión de compra y venta de entradas de un cine. La gestión de datos se hace a través de un estado global mediante Vuex.",
         "githubUrl":""
-        },
-    {
-    "titulo":"DropBox",
-    "tecnologias":["Vue.js", "Vue.js", "Vue.js", "Vue.js"],
+    },
+{
+    "titulo":"Portfolio Web",
+    "tecnologias":["React.js", "Tailwind", "HTML"],
     "imagen":"url",
     "id":3,
-    "description":"blablalb",
+    "description":"Proyecto de esta maravillosa web donde plasmo mi esencia, trabajo y código",
     "githubUrl":""
      }                
     ]  

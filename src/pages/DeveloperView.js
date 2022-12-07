@@ -4,8 +4,8 @@ import data from '../data/dataDev.json'
 export default function DeveloperView (){
     const dataProject = data.proyectos
     return(
-        <section id='programacion' className='m-auto w-4/6'>
-            <h2 className='font-pompi font-bold underline decoration-rosa text-5xl'>Some projects I've built.</h2>
+        <section id='programacion' className='m-auto w-4/6 '>
+            <h2 className='font-pompi font-bold underline decoration-rosa text-5xl mb-8'>Some projects I've built.</h2>
             {dataProject.map((project, index) => {
             return(<ProjectDev
             key={index}
