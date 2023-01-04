@@ -16,3 +16,7 @@
 .font-mono{
     font-family: 'DM Mono', monospace;
 }
+.center-footer{
+    left: 50%;
+    transform: translateX(-50%);
+}
