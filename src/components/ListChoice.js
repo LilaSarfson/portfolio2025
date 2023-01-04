@@ -1,10 +1,10 @@
 export default function ListChoice (){
     return(
         <>
-            <ul className="flex flex-row justify-around w-full 6 lg:h-4/6 items-center lg:text-4xl font-pompi">
-                <li className="w-1/3">Developing<span>⤸</span></li>
-                <li className="font-narko uppercase lg:text-5xl text-center">Every journy begins with a choice!</li>
-                <li className="w-1/3 hover:text-rojo"><span>⤹</span>History</li>
+            <ul className="flex flex-row justify-around w-full 6 lg:h-4/6 items-center lg:text-xl font-mono">
+                <li className="w-1/3 text-rojo text-end">Developing<span>⤸</span></li>
+                <li className="font-mono uppercase lg:text-2xl text-center">Every journy begins with a choice!</li>
+                <li className="w-1/3 text-rojo"><span>⤹</span>History</li>
             </ul>
         </>
     )
