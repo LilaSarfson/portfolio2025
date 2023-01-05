@@ -11,10 +11,10 @@
 {
     "titulo":"Freeway",
     "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
-    "imagen":"url",
+    "imagen":"cineBarrio.png",
     "id":2,
     "description":"¿Necesitas ayuda para organizar tus viajes? Freeway es tu solución. Una App sencilla donde quieres ir, con quien y cúanto te vas a gastar. Además, puedes conservar todos esos datos para echarle un vistazo cuando te de morriña.",
-    "githubUrl":"",
+    "githubUrl":"https://github.com/PlanificacionViaje",
     "demo":""
     },
  {
@@ -23,24 +23,27 @@
     "imagen":"dropZone.png",
     "id":3,
     "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para la selección de FrontEnd de la Hackathon CruzRoja2022",
-    "githubUrl":""
+    "githubUrl":"https://github.com/LilaSarfson/DropDocHackaton",
+    "demo":""
 
     },
 {
         "titulo":"CineSeat App",
         "tecnologias":["Vue.js", "Vuex", "Tailwind"],
-        "imagen":"url",
+        "imagen":"cineBarrio.png",
         "id":3,
         "description":"Gestión de compra y venta de entradas de un cine. La gestión de datos se hace a través de un estado global mediante Vuex.",
-        "githubUrl":""
+        "githubUrl":"https://github.com/LilaSarfson/cinematest",
+        "demo":""
+
     },
 {
     "titulo":"Portfolio Web",
     "tecnologias":["React.js", "Tailwind", "HTML"],
-    "imagen":"url",
+    "imagen":"cineBarrio.png",
     "id":3,
     "description":"Proyecto de esta maravillosa web donde plasmo mi esencia, trabajo y código",
-    "githubUrl":""
+    "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"
      }                
     ]  
 }

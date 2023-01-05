@@ -1,7 +1,7 @@
 import perfil from '../assets/perfil1910.svg'
 export default function AboutMe (){
     return(
-        <section className="h-full flex align-start flex-col w-4/6 m-auto gap-4 font-pompi " id='about'>
+        <section className="h-full flex align-start justify-center flex-col w-4/6 m-auto gap-4 font-pompi " id='about'>
             <div className='flex flex-row lg:gap-8'>
                 <div className=' flex flex-col md:gap-4 lg:gap-8 w-4/6'>
                     <h2 className="md:text-5xl lg:text-5xl w-3/6 underline decoration-lila font-bold">About me.</h2>
