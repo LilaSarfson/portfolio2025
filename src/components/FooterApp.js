@@ -11,5 +11,6 @@ export default function FooterApp (props){
 
                 <a href='#contact'><li className={`flex ${props.directionLi} items-center justify-center`}><img className='xl:w-1/12 2xl:w-2/12  hover:rotate-180' src={Moon} alt='Luna'/><p className='hover:underline decoration-verde'>Contact.</p></li></a>
             </ul>
+            
     )
 }
