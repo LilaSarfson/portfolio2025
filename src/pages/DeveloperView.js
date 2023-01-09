@@ -5,7 +5,7 @@ export default function DeveloperView (){
     const dataProject = data.proyectos
     return(
         <section id='programacion' className='m-auto w-4/6 '>
-            <h2 className='font-pompi font-bold underline decoration-rosa xl:text-5xl 2xl:text-6xl mb-8'>Some projects I've built.</h2>
+            <h2 className='font-pompi font-bold underline decoration-rosa xl:text-5xl 2xl:text-6xl mb-20'>Some projects I've built.</h2>
             <div className='flex flex-col gap-14'>
                 {dataProject.map((project, index) => {
                 return(<ProjectDev
