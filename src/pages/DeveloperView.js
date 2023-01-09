@@ -11,7 +11,7 @@ export default function DeveloperView (){
                 return(<ProjectDev
                 key={index}
                 direction={ index%2 ? 'flex-row': 'flex-row-reverse'}
-                border={index%2 ? 'border-r-4' : 'border-l-4'}
+                gradient={index%2 ? 'background-gradient2' : 'background-gradient'}
                 title={project.titulo}
                 description={project.description}
                 tecno={project.tecnologias}
