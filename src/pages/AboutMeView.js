@@ -32,7 +32,7 @@ export default function AboutMe (){
                     </ul>
                 </div>  
                 <div className='xl:w-2/12 2xl:w-full self-center'>
-                    <img className='2xl:w-3/6 m-auto  border-8 border-solid border-lila' src={perfil}/>
+                    <img className='2xl:w-3/6 m-auto border-8 border-double border-lila' src={perfil}/>
                 </div> 
             </div>
         </section>
