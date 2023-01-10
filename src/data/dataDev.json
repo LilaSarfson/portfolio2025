@@ -22,7 +22,7 @@
     "tecnologias":["JavaScript", "CSS", "HTML"],
     "imagen":"dropZone.png",
     "id":3,
-    "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para la selección de FrontEnd de la Hackathon CruzRoja2022",
+    "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para el proceso de selección de FrontEnd de la Hackathon CruzRoja2022.",
     "githubUrl":"https://github.com/LilaSarfson/DropDocHackaton",
     "demo":""
 

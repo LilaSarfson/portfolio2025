@@ -1,9 +1,5 @@
-[ 
+
     {
-    "descripcion":"Hi! My name is Lila Sarfson I'm looking for a shiny future :)",
-    "descripcionDev":"Hi, I'm Lila! I have a junior FrontEnd profile and I'm looking for my first professional experience. I stand out for a proactive attitude and love  to get new knowledge. ",
-    "descripcionHis":"A historian by profession, I am passionate about research and scientific writing.",
-    "presentacion":"Every Journey Begins with a choice",
-    "cv":"Click here to watch my CV!"
+    "tecnologias":["Vue.js", "Redux", "Python", "Tailwind"],
+    "otrastecnologias":["Java", "SQL", "MongoDB", "BootStrap"]
      }
-]

@@ -1,16 +1,21 @@
 import Hello from '../assets/hello.png'
 export default function ContactView (){
     return(
-        <section id='contact' className="m-auto w-4/6 h-2/3 flex flex-col justify-center items-center">
-           <h2 className='font-pompi font-bold underline decoration-verde text-5xl'>Contact.</h2>
-            <div className='flex flex-row justify-center self-center gap-8 items-center'>
-                <h3 className="font-mono font-bold uppercase xl:text-6xl xl:h-1/3 text-verde">Get in touch!</h3>
-                <img className='w-2/12' src={Hello}/>
+        <section id='contact' className="m-auto w-4/6 h-2/3 flex flex-col justify-around items-center font-mono">
+            <div className='flex flex-col justify-center items-center'>
+                <h2 className='font-pompi font-bold underline decoration-verde text-5xl'>Contact.</h2>
+                <div className='flex flex-row justify-center self-center gap-8 items-center'>
+                    <div>                    
+                        <p className='2xl:text-lg mb-2'>¿Te ha parecido interesante?<span className='text-verde font-bold'>¡</span>Hablemos<span className='text-verde font-bold'>!</span></p>
+                        <address>
+                        <p className='2xl:text-lg hover:underline decoration-wavy decoration-verde text-center'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
+                        </address>
+                    </div>
+                    <img className='w-2/12' src={Hello}/>
+                </div>
             </div>
-            <p className='font-mono'>¿Te ha parecido interesante?¡Hablemos!</p>
-            <address>
-            <p className='font-mono hover:underline decoration-wavy decoration-verde'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
-            </address>
+            <p>©2023 Designed and built by Lila Sarfson</p>
         </section>    
     )
 }
+{/* <h3 className="font-bold uppercase xl:text-6xl xl:h-1/3 text-verde">Get in touch!</h3> */}

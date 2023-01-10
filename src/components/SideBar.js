@@ -12,9 +12,6 @@ export default function SideBar (){
                             <img className='xl:w-12/12 2xl:w-4/12 m-auto hover:invert' src={github} alt='github'/></a></li>
                         <li className='2xl:w-4/6'><a href='/'>
                             <img className='xl:w-12/12 2xl:w-4/12 m-auto hover:invert' src={home} alt='home'/></a></li>   
-                        <li className='2xl:h-4/6 2xl:w-4/6 font-mono flex flex-col gap-6 mt-12'>
-                           <p className='rotate-90 xl:hidden w-full'>© 2023 </p>
-                           <p className='xl:hidden rotate-90 w-full mt-4'>Lila Sarfson</p></li>   
                 </ul> 
             </div>      
         </div>
