@@ -18,4 +18,3 @@ export default function ContactView (){
         </section>    
     )
 }
-{/* <h3 className="font-bold uppercase xl:text-6xl xl:h-1/3 text-verde">Get in touch!</h3> */}
