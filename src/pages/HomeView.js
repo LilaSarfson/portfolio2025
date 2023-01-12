@@ -8,7 +8,7 @@ export default function HomeView (){
             <div className="flex flex-col justify-center w-full h-4/6 items-center mt-8 font-narko">
                 <ProfileApp src={perfil}/>
             </div>
-            <div className=" h-3/6 flex flex-col justify-between items-center w-full">
+            <div className=" h-3/6 flex flex-col justify-between items-center w-full mt-10">
                 <ListChoice/>
             </div>
         </div>
