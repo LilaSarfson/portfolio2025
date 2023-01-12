@@ -13,7 +13,7 @@ function App() {
       <AboutMe/>
       <DeveloperView/>
       <ContactView/>
-      <FooterApp direction={'flex-row'} directionLi={'flex-row'}/>
+      <FooterApp/>
     </div>
   );
 }

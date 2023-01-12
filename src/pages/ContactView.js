@@ -5,16 +5,16 @@ export default function ContactView (){
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='font-pompi font-bold underline decoration-verde text-5xl'>Contact.</h2>
                 <div className='flex flex-row justify-center self-center gap-8 items-center'>
-                    <div>                    
-                        <p className='2xl:text-lg mb-2'>¿Te ha parecido interesante?<span className='text-verde font-bold'>¡</span>Hablemos<span className='text-verde font-bold'>!</span></p>
+                    <div className='2xl:text-lg xl:text-lg'>                    
+                        <p className='mb-2'>¿Te ha parecido interesante?<span className='text-verde font-bold'>¡</span>Hablemos<span className='text-verde font-bold'>!</span></p>
                         <address>
-                        <p className='2xl:text-lg hover:underline decoration-wavy decoration-verde text-center'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
+                        <p className='hover:underline decoration-wavy decoration-verde text-center'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
                         </address>
                     </div>
                     <img className='w-2/12' src={Hello}/>
                 </div>
             </div>
-            <p>©2023 Designed and built by Lila Sarfson</p>
+            <p className='xl:text-xs'>©2023 Designed and built by Lila Sarfson</p>
         </section>    
     )
 }
