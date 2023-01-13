@@ -10,7 +10,7 @@ export default function DeveloperView (){
                 {dataProject.map((project, index) => {
                 return(<ProjectDev
                 key={index}
-                direction={ index%2 ? 'sm:flex-row': 'sm:flex-row-reverse'}
+                direction={ index%2 ? 'xl:flex-row': 'xl:flex-row-reverse'}
                 gradient={index%2 ? 'background-gradient2' : 'background-gradient'}
                 title={project.titulo}
                 description={project.description}

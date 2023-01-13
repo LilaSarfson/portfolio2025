@@ -5,9 +5,9 @@ export default function AboutMe (){
     const [datatec, setData]= useState(data)
     return(
         <section className="h-full flex align-start w-4/6 m-auto gap-4 font-mono">
-            <div className='flex flex-col sm:flex-row xl:gap-8'>
-                <div className=' flex flex-col 2xl:gap-8 2xl:w-5/12 xl:w-8/12 ' id='about'>
-                    <h2 className=" md:text-5xl 2xl:text-6xl w-3/6 underline decoration-lila font-bold  font-pompi">About me.</h2>
+            <div className='grid grid-cols-1 sm:grid-cols-2'>
+                <h2 className="sm:col-span-2 md:text-5xl 2xl:text-6xl w-3/6 underline decoration-lila font-bold  font-pompi">About me.</h2>
+                <div className='2xl:w-5/12 xl:w-full justify-center' id='about'>
                     <ul className="xl:text-lg 2xl:text-2xl">
                         <p>Sí, soy historiadora de carrera y ahora, también programadora. Y sí, a continuación contestaré todas las dudas que surgen a raiz de esto:</p>
                         <li className='font-bold'>¿Cuándo?</li>
@@ -17,7 +17,12 @@ export default function AboutMe (){
                         <li className='font-bold'>¿Por qué?</li>
                         <p>Aunque suene cliché, me encanta aprender cosas nuevas y por qué no, también me encanta las oportunidades laborales de este sector. Desarrollar otra forma de pensar y crear es lo que me motiva para seguir creciendo como desarrolladora.</p>
                     </ul>
-                    <ul className='xl:text-sm 2xl:text-lg flex flex-row gap-8 text-black uppercase font-bold  flex-wrap mb-4 mt-4'>
+                </div>  
+                <div className='sm:w-full text-right sm:h-6/12'>
+                    <img className='w-6/12 border-8 border-double border-lila m-auto' src={perfil}/>
+                </div> 
+                <div className='sm:col-span-2'>
+                    <ul className='xl:text-sm 2xl:text-lg flex flex-row gap-8 text-black uppercase font-bold mb-4 flex-wrap'>
                         <p>Tecnologías que he usado recientemente:</p>
                         {
                         datatec.tecnologias.map((tecno, index) =>{return (
@@ -25,7 +30,7 @@ export default function AboutMe (){
                         )})
                         }
                     </ul>
-                    <ul className='xl:text-sm 2xl:text-lg flex flex-row gap-8 flex-wrap text-black uppercase font-bold'>
+                    <ul className='xl:text-sm 2xl:text-lg flex flex-row gap-8 flex-wrap sm:flex-nowrap text-black uppercase font-bold'>
                         <p>Otras tecnologías que conozco:</p>
                         {
                         datatec.otrastecnologias.map((tecno, index) =>{return (
@@ -33,10 +38,7 @@ export default function AboutMe (){
                         )})
                         }
                     </ul>
-                </div>  
-                <div className='sm:w-full self-center'>
-                    <img className='w-5/12 m-auto border-8 border-double border-lila' src={perfil}/>
-                </div> 
+                </div>    
             </div>
         </section>
     )
