@@ -1,7 +1,7 @@
 import Hello from '../assets/hello.png'
 export default function ContactView (){
     return(
-        <section id='contact' className="m-auto w-4/6 h-2/3 flex flex-col justify-around items-center font-mono">
+        <section id='contact' className="m-auto w-4/6 h-2/3 sm:h-1/3 justify-center flex flex-col items-center font-mono">
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='font-pompi font-bold underline decoration-verde text-5xl mb-4'>Contact.</h2>
                 <div className='flex flex-col sm:flex-row justify-center self-center gap-8 items-center'>
