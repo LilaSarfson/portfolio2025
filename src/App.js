@@ -8,7 +8,7 @@ import './index.css'
 function App() {
   return (
     <div className="App relative">
-      <SideBar/>
+      <SideBar estado='hidden lg:block' itemsDirection='items-end' position='fixed right-0' tamano='w-2/6 h-full' direccion='flex-col' />
       <HomeView/>
       <AboutMe/>
       <DeveloperView/>
