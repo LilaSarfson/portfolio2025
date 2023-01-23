@@ -15,7 +15,7 @@ export default function ProjectDev (props){
                 <p className='2xl:text-lg'>{props.description}</p>
                     <ul className="flex flex-row gap-6 justify-end mt-6 flex-wrap">
                     {props.tecno.map((tecno, index)=>{
-                        return( <li className='bg-white lg:p-1 xl:p-2 rounded-sm duration-150 hover:-translate-y-4' key={index}><span className='text-rosa'>✿</span>{tecno}</li>)
+                        return( <li className='bg-white p-1 xl:p-2 rounded-sm duration-150 hover:-translate-y-4' key={index}><span className='text-rosa'>✿</span>{tecno}</li>)
                     })}  
                     </ul>
             </div>
