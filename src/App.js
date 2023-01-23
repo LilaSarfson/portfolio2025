@@ -4,6 +4,8 @@ import FooterApp from './components/FooterApp'
 import ContactView from "./pages/ContactView";
 import DeveloperView from "./pages/DeveloperView";
 import SideBar from "./components/SideBar";
+import HistoryView from "./pages/HistoryView"
+import {Route, Routes} from 'react-router-dom';
 import './index.css'
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <DeveloperView/>
       <ContactView/>
       <FooterApp/>
+      <Routes>
+        <Route path='/history' component={HistoryView} />
+      </Routes>
     </div>
   );
 }
