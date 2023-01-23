@@ -11,7 +11,7 @@
 {
     "titulo":"Freeway",
     "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
-    "imagen":"cineBarrio.png",
+    "imagen":"Freeway.png",
     "id":2,
     "description":"¿Necesitas ayuda para organizar tus viajes? Freeway es tu solución. Una App sencilla donde quieres ir, con quien y cúanto te vas a gastar. Además, puedes conservar todos esos datos para echarle un vistazo cuando te de morriña.",
     "githubUrl":"https://github.com/PlanificacionViaje",
@@ -30,7 +30,7 @@
 {
         "titulo":"CineSeat App",
         "tecnologias":["Vue.js", "Vuex", "Tailwind"],
-        "imagen":"cineBarrio.png",
+        "imagen":"Cinema.png",
         "id":3,
         "description":"Gestión de compra y venta de entradas de un cine. La gestión de datos se hace a través de un estado global mediante Vuex.",
         "githubUrl":"https://github.com/LilaSarfson/cinematest",
@@ -40,7 +40,7 @@
 {
     "titulo":"Portfolio Web",
     "tecnologias":["React.js", "Tailwind", "HTML"],
-    "imagen":"cineBarrio.png",
+    "imagen":"portfolio.png",
     "id":3,
     "description":"Proyecto de esta maravillosa web donde plasmo mi esencia, trabajo y código",
     "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"

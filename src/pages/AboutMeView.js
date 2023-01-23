@@ -4,7 +4,7 @@ import data from '../data/profileData.json'
 export default function AboutMe (){
     const [datatec, setData]= useState(data)
     return(
-        <section className="flex flex-col lg:align-start w-4/6 m-auto gap-4 font-mono"  id='about'>
+        <section className="flex flex-col lg:align-start w-4/6 m-auto gap-4 font-mono mb-28"  id='about'>
                 <h2 className="col-span-2 text-5xl 2xl:text-6xl w-full underline decoration-lila font-bold text-center sm:text-start font-pompi">About me.</h2>
             <div className='flex flex-col md:flex-row gap-4'>
                 <div className='md:w-6/12 w-full justify-center'>
@@ -20,7 +20,7 @@ export default function AboutMe (){
                 </div>
                 <div className='flex flex-col gap-4 items-center md:w-6/12 w-full'>
                     <img className='w-7/12' src={perfil}/>    
-                    <div className='text-sm sm:text-md text-black w-full text-center w-5/6'>
+                    <div className='text-md text-black w-full text-center w-5/6'>
                             <p className=' font-bold'>Tecnologías que he usado recientemente:</p>
                         <ul className='flex flex-row gap-2 sm:gap-8 mb-4 flex-wrap justify-center'>
                             {
