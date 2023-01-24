@@ -7,7 +7,7 @@ export default function ListChoice (){
             <h3 className="uppercase text-center text-2xl 2xl:text-4xl">Every journy begins with a choice!</h3>
             <ul className="flex flex-col sm:flex-row justify-around w-full items-center text-center gap-4 sm:gap-0">
                 <li className="w-1/3 text-rojo hover:animate-pulse">Developing<span>⤸</span></li>
-             <li className="w-1/3 text-rojo hover:animate-pulse"><Link to='/history#historian' ><span>⤹</span>History</Link> </li>
+             <li className="w-1/3 text-rojo hover:animate-pulse"><a href='#historian' ><span>⤹</span>History</a> </li>
             </ul>
         </div>
     )

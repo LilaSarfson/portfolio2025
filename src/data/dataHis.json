@@ -1,0 +1,34 @@
+{
+    "proyectos":[
+        {
+            "name":"NO PIENSES EN UN ELEFANTE",
+            "description":"Reseña del libro 'No pienses en un elefante', escrita por George Lakoff. A lo largo de dicho volumen, Lakoff nos propone el concepto de los marcos de pensamiento, estructuras desde las cuales el individuo se siente cómodo para abordar el mundo que le rodea.",
+            "pdf":""
+        },
+        {
+            "name":"BIOLOGÍA  MOLECULAR",
+            "description":"Tras ser partícipe de los horrores de la segunda guerra mundial, la física se vio sobrepasada y dominada por los intereses militares. De este modo, los grandes profesionales de este campo volvieron sus miradas hacia la ciencia de la vida, más imprecisa y menos desarrollada, dando lugar a la biología molecular.",
+            "pdf":""
+        },
+        {
+            "name":"MARCAS DE NACIMIENTO",
+            "description":"Tras terminar la segunda guerra mundial y proclamarse el bando aliado como ganador, el gigante soviético se embarcó en un carrera armamentística, la cual estuvo auspiciada por el conocimiento y desarrollo científico de la Alemania nazi.",
+            "pdf":""
+        },
+        {
+            "name":"LA CORROSIÓN DEL CARÁCTER",
+            "description":"Reseña del libro 'La corrosión del carácter', escrito por Richard Sennett. Este volumen nos plantea cómo la economía moderna, surgida de la mano de la globalización y la tecnología, exigen al trabajador el sacrificio de una vida plena interna y  emocional, para poder alcanzar una alta competitividad en el mercado laboral.",
+            "pdf":""
+        },
+        {
+            "name":"SEPARADAS AL NACER: ECOLOGÍA Y ECOLOGISMO",
+            "description":"La historia del nacimiento de los conceptos de ecología y el ecologismo, a través del enigmático caso de Rachel Carson: una bióloga marina y talentosa escritora, quien logró tener una enorme repercusión y así dar una gran visibilidad a la amenaza que suponía para la naturaleza y la salud humana el uso desmedido del DDT y los productos químicos.",
+            "pdf":""
+        },
+        {
+            "name":"AÚN SIN NOMBRE",
+            "description":"La historia del nacimiento de los conceptos de ecología y el ecologismo, a través del enigmático caso de Rachel Carson: una bióloga marina y talentosa escritora, quien logró tener una enorme repercusión y así dar una gran visibilidad a la amenaza que suponía para la naturaleza y la salud humana el uso desmedido del DDT y los productos químicos.",
+            "pdf":""
+        }
+    ]
+}
