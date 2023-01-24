@@ -19,13 +19,13 @@ export default function AboutMe (){
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 items-center md:w-6/12 w-full'>
-                    <img className='w-7/12' src={perfil}/>    
+                    <img className='w-7/12 2xl:w-6/12' src={perfil}/>    
                     <div className='text-md text-black w-full text-center w-5/6'>
                             <p className=' font-bold'>Tecnologías que he usado recientemente:</p>
                         <ul className='flex flex-row gap-2 sm:gap-8 mb-4 flex-wrap justify-center'>
                             {
                             datatec.tecnologias.map((tecno, index) =>{return (
-                                <li className='uppercase'><span className='text-lila'>✿</span>{tecno}</li>
+                                <li className='uppercase' key={index}><span className='text-lila'>✿</span>{tecno}</li>
                             )})
                             }
                         </ul>
@@ -33,7 +33,7 @@ export default function AboutMe (){
                         <ul className='flex flex-row gap-2 sm:gap-8 flex-wrap justify-center'>
                             {
                             datatec.otrastecnologias.map((tecno, index) =>{return (
-                                <li className='self-end uppercase'><span className='text-lila'>✿</span>{tecno}</li>
+                                <li className='self-end uppercase' key={index}><span className='text-lila'>✿</span>{tecno}</li>
                             )})
                             }
                         </ul>
