@@ -2,8 +2,8 @@ import Hello from '../assets/hello.png'
 import SideBar from '../components/SideBar'
 export default function ContactView (){
     return(
-        <section id='contact' className="motion-safe:animate-fadeIn m-auto w-5/6 sm:w-3/6 h-2/3 sm:h-4/6 justify-center flex flex-col items-center font-mono">
-            <div className='flex flex-col justify-center items-center'>
+        <section id='contact' className="motion-safe:animate-fadeIn m-auto w-5/6 sm:w-3/6 h-2/3 sm:h-4/6 justify-around flex flex-col items-center font-mono">
+            <div className='flex flex-col justify-center items-center h-3/6'>
                 <h2 className='font-pompi font-bold underline decoration-verde text-5xl mb-4'>Contact.</h2>
                 <div className='flex flex-col lg:flex-row justify-center self-center gap-8 items-center'>
                     <div className='2xl:text-lg xl:text-lg text-center'>                    
@@ -16,7 +16,9 @@ export default function ContactView (){
                     <img className='w-2/12' src={Hello}/>
                 </div>
             </div>
-            <p className='text-center text-xs'>©2023 Designed and built by Lila Sarfson</p>
+            <div className='relative w-full'>
+                <p className='text-center font-pompi text-xs w-full absolute bottom-0'>©2023 Designed and built by Lila Sarfson</p>
+            </div>
         </section>    
     )
 }
