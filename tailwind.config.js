@@ -20,12 +20,12 @@ module.exports = {
       colors:{
         'lila':'rgb(160, 175, 229)',
         'amarillo':'rgb(251, 223, 64)',
-        'amarillOscuro':'rbg(209, 185, 50)',
         'verde':'rgb(12, 175, 107)',
         'rosa':'rgb(246, 142, 178)',
         'rojo':'rgb(245, 49, 11)',
         'azul':'rgb(203, 231, 233)',
-        'azul-css':	'rgb(30,144,255)'
+        'azul-css':	'rgb(30,144,255)',
+        'oscuro':'rgb(245, 221, 69)'
       },
       screens: {
         'sm': '640px',

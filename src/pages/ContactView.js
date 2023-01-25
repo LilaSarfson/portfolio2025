@@ -17,7 +17,7 @@ export default function ContactView (){
                 </div>
             </div>
             <div className='relative w-full'>
-                <p className='text-center font-pompi text-xs w-full absolute bottom-0'>©2023 Designed and built by Lila Sarfson</p>
+                <p className='text-center font-pompi text-base w-full absolute bottom-0 font-bold'>©2023 Designed and built by Lila Sarfson</p>
             </div>
         </section>    
     )
