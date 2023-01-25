@@ -5,6 +5,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        }
+      },
+      variants: {
+        animation: ["motion-safe"]
+      },
       colors:{
         'lila':'rgb(160, 175, 229)',
         'amarillo':'rgb(251, 223, 64)',
@@ -29,7 +41,8 @@ module.exports = {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-      }
+      },
+      
     },
   },
   plugins: [],
