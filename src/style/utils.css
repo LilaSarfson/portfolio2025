@@ -16,6 +16,9 @@
 .font-mono{
     font-family: 'DM Mono', monospace;
 }
+.font-rale{
+    font-family: 'Raleway', sans-serif;
+}
 .center-footer{
     left: 50%;
     transform: translateX(-50%);

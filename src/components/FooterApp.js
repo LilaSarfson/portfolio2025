@@ -1,7 +1,7 @@
 import Est from '../assets/Est-03.svg'
 import Flor from '../assets/flor-02.svg'
 import Moon from '../assets/moon-04.svg'
-import CV from '../assets/LilaCV.pdf'
+import CV from '../assets/PDFs/CV.pdf'
 export default function FooterApp (){
     return(
             <ul className='font-pompi backdrop-blur-sm mb-0 font-bold flex self-center w-full justify-center flex-row fixed bottom-0 text-md md:text-xl 2xl:text-3xl'>
