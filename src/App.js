@@ -6,14 +6,25 @@ import DeveloperView from "./pages/DeveloperView";
 import SideBar from "./components/SideBar";
 import HistoryView from "./pages/HistoryView";
 import './index.css'
+import { useState } from "react";
 function App() {
+  const [display, setDisplay]= useState(false)
+  const getChildData=(val) =>{
+    console.log(val)
+    setDisplay(val)
+    console.log(display)
+  }
   return (
     <div className="App relative">
       <SideBar estado='hidden lg:block' itemsDirection='items-end' position='fixed right-0' tamano='w-2/6 h-full' direccion='flex-col' />
-      <HomeView/>
+      <HomeView
+      display={getChildData}
+      />
       <AboutMe/>
       <DeveloperView/>
-      <HistoryView/>
+      <HistoryView
+      display = {display}
+      />
       <ContactView/>
       <FooterApp/>
     </div>
