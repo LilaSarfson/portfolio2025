@@ -9,7 +9,7 @@ export default function HistoryView (props){
             <div className="grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
                 { dataproyecto.map((proyect, index)=> {
                     return(
-                        <ProojectHistory key={index} titulo={proyect.name} description={proyect.description} pdf={proyect.pdf}/>
+                        <ProojectHistory img={proyect.img} key={index} titulo={proyect.name} description={proyect.description} pdf={proyect.pdf}/>
                     )
                 })}
             </div>

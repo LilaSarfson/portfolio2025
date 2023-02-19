@@ -6,7 +6,7 @@ export default function LinkProj (props){
                 <p>/</p>
                 <li className="hover:text-white font-bold"><a href={props.demo} target='_blanck'><p>demo</p></a></li>
         </ul>
-        <h3 className="text-xl xl:text-3xl 2xl:text-4xl  font-bold">{props.title}</h3>
+        <h3 className="text-3xl 2xl:text-4xl uppercase font-bold">{props.title}</h3>
     </div>  
     )
 }
