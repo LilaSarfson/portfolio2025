@@ -10,9 +10,8 @@ import { useState } from "react";
 function App() {
   const [display, setDisplay]= useState(false)
   const getChildData=(val) =>{
-    console.log(val)
     setDisplay(val)
-    console.log(display)
+
   }
   return (
     <div className="App relative">

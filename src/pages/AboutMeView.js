@@ -4,11 +4,11 @@ import data from '../data/profileData.json'
 export default function AboutMe (){
     const [datatec, setData]= useState(data)
     return(
-        <section className="motion-safe:animate-fadeIn flex flex-col lg:align-start w-5/6 sm:w-3/6 m-auto gap-4 font-rale py-32 "  id='about'>
+        <section className="motion-safe:animate-fadeIn flex flex-col lg:align-start w-5/6 xl:w-4/6 2xl:w-3/6 m-auto gap-4 font-rale py-32 "  id='about'>
                 <h2 className="col-span-2 text-5xl 2xl:text-6xl w-full underline decoration-lila font-bold text-center sm:text-start font-pompi">About me.</h2>
             <div className='flex flex-col md:flex-row gap-4'>
                 <div className='md:w-6/12 w-full justify-center'>
-                    <ul className="xl:text-lg 2xl:text-2xl">
+                    <ul className="text-lg 2xl:text-2xl">
                         <p className='leading-relaxed'>Sí, soy historiadora de carrera y ahora, también programadora. Y sí, a continuación contestaré todas las dudas que surgen a raiz de esto:</p>
                         <br/>
                         <li className='font-bold bg-lila w-min'>¿Cuándo?</li>
