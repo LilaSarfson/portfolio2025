@@ -15,7 +15,7 @@ function App() {
   }
   return (
     <div className="App relative">
-      <SideBar estado='hidden lg:block' itemsDirection='items-end' position='fixed right-0' tamano='w-2/6 h-full' direccion='flex-col' />
+      <SideBar estado='hidden lg:block' itemsDirection='items-end' position='fixed right-0' tamano='w-2/6 xl:w-3/6 h-full' direccion='flex-col' />
       <HomeView
       display={getChildData}
       />
