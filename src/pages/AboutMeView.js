@@ -5,8 +5,8 @@ export default function AboutMe (){
     const [datatec, setData]= useState(data)
     return(
         <section className="motion-safe:animate-fadeIn flex flex-col lg:align-start w-5/6 xl:w-4/6 2xl:w-3/6 m-auto gap-4 font-rale py-32 "  id='about'>
-                <h2 className="col-span-2 text-5xl 2xl:text-6xl w-full underline decoration-lila font-bold text-center sm:text-start font-pompi">About me.</h2>
-            <div className='flex flex-col md:flex-row gap-4'>
+            <h2 className="col-span-2 text-5xl 2xl:text-6xl w-full underline decoration-lila font-bold text-center sm:text-start font-pompi">About me.</h2>
+            <div className='flex flex-col md:flex-row  gap-12 md:gap-4'>
                 <div className='md:w-6/12 w-full justify-center'>
                     <ul className="text-lg 2xl:text-2xl">
                         <p className='leading-relaxed'>Sí, soy historiadora de carrera y ahora, también programadora. Y sí, a continuación contestaré todas las dudas que surgen a raiz de esto:</p>
@@ -22,7 +22,7 @@ export default function AboutMe (){
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 items-center md:w-6/12 w-full'>
-                    <img className='w-8/12 outline outline-offset-2 outline-4 outline-black' src={perfil}/>    
+                    <img className='sm:w-6/12 md:w-10/12 w-8/12 outline outline-offset-2 outline-4 outline-black' src={perfil}/>    
                     <div className='text-md text-black w-full text-center w-5/6'>
                             <p className=' font-bold'>Tecnologías que he usado recientemente:</p>
                         <ul className='flex flex-row gap-2 sm:gap-8 mb-4 flex-wrap justify-center'>
