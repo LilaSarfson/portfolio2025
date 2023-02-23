@@ -15,5 +15,3 @@ export default function LinkProj (props){
     </div>  
     )
 }
-
-// {`${props.demo=== "" ?'hidden' : ''}
