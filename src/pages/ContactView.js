@@ -2,7 +2,7 @@ import Hello from '../assets/hello.png'
 import SideBar from '../components/SideBar'
 export default function ContactView (){
     return(
-        <section id='contact' className="motion-safe:animate-fadeIn m-auto w-5/6 sm:w-4/6 h-2/3 sm:h-4/6 justify-around flex flex-col items-center font-rale">
+        <section id='contact' className="z-0 motion-safe:animate-fadeIn m-auto w-5/6 sm:w-4/6 h-2/3 sm:h-4/6 justify-around flex flex-col items-center font-rale">
             <div className='flex flex-col justify-center items-center h-3/6'>
                 <h2 className='font-pompi font-bold underline decoration-verde text-4xl mb-4'>Contact.</h2>
                 <div className='flex flex-col lg:flex-row justify-center self-center gap-8 items-center'>

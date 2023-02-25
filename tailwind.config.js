@@ -14,6 +14,9 @@ module.exports = {
           "100%": { opacity: 1 }
         }
       },
+      width: {
+        '10p': '10%',
+      },
       variants: {
         animation: ["motion-safe"]
       },
