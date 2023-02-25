@@ -8,7 +8,9 @@ export default function ContactView (){
                 <div className='flex flex-col lg:flex-row justify-center self-center gap-8 items-center'>
                     <div className='2xl:text-xl text-center'>                    
                         <p className='mb-2'>¿Te ha parecido interesante?<span className='text-verde font-bold'>¡</span>Hablemos<span className='text-verde font-bold'>!</span></p>
-                        <SideBar  estado='block lg:hidden' position='static' tamano='w-8/12' direccion='flex-row' estadoHome='hidden'itemsDirection='items-center'/>
+                        <div className='items-center'>
+                             <SideBar  estado='block lg:hidden' justi='justify-center'/>
+                        </div>
                         <address>
                         <p className='hover:underline decoration-wavy decoration-verde text-center'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
                         </address>
