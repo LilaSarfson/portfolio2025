@@ -7,7 +7,7 @@ export default function ContactView (){
                 <h2 className='font-pompi font-bold underline decoration-verde text-4xl mb-4'>Contact.</h2>
                 <div className='flex flex-col lg:flex-row justify-center self-center gap-8 items-center'>
                     <div className='2xl:text-xl text-center'>                    
-                        <p className='mb-2'>¿Te ha parecido interesante?<span className='text-verde font-bold'>¡</span>Hablemos<span className='text-verde font-bold'>!</span></p>
+                        <p className='mb-2'>Did you find it interesting? Let's talk<span className='text-verde font-bold'>!</span></p>
                         <div className='items-center'>
                              <SideBar  estado='block lg:hidden' justi='justify-center'/>
                         </div>

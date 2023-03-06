@@ -4,7 +4,7 @@
     "tecnologias":["Vue.js", "CSS", "HTML", "BootStrap"],
     "imagen":"cineBarrio.png",
     "id":1,
-    "description":"El típico juego de adivinar películas mezclado con el ahoracado, la combinación perfecta para ejercitar la memoria y divertirte pensando en las mejores cintas de tus años mozos! Esta aplicación está pensada para un público anciano, ya que las películas data todas de los años 50.",
+    "description":"Just like the hanged game but guessing movies! Designed for seniors to exercise their memory by recalling their favorite movies. ",
     "githubUrl":"https://github.com/Singulars2022/cinedebarrio",
     "demo":"https://cinedebarrio-pi.vercel.app/"
     },
@@ -13,7 +13,7 @@
     "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
     "imagen":"Freeway.png",
     "id":2,
-    "description":"¿Necesitas ayuda para organizar tus viajes? Freeway es tu solución. Una App sencilla donde quieres ir, con quien y cúanto te vas a gastar. Además, puedes conservar todos esos datos para echarle un vistazo cuando te de morriña.",
+    "description":"Do you need help organizing your trips? Freeway is the solution. An easy App to save and manage all your travel informations",
     "githubUrl":"https://github.com/PlanificacionViaje",
     "demo":""
     },
@@ -22,7 +22,7 @@
     "tecnologias":["JavaScript", "CSS", "HTML"],
     "imagen":"dropZone.png",
     "id":3,
-    "description":"Aplicación sencilla para dropear un archivo y subirlo a tu Google Drive. Este proyecto lo cree para el proceso de selección de FrontEnd de la Hackathon CruzRoja2022.",
+    "description":"Drop a file and upload it to Google Drive. This project was made for the selection process of the Hackathon competition: CruzRoja2022.",
     "githubUrl":"https://github.com/LilaSarfson/DropDocHackaton",
     "demo":""
 
@@ -32,7 +32,7 @@
         "tecnologias":["Vue.js", "Vuex", "Tailwind"],
         "imagen":"Cinema.png",
         "id":3,
-        "description":"Gestión de compra y venta de entradas de un cine. La gestión de datos se hace a través de un estado global mediante Vuex.",
+        "description":"Management of the purchase and sale of cinema tickets. Data management is done through a global status using Vuex.",
         "githubUrl":"https://github.com/LilaSarfson/cinematest",
         "demo":""
 
@@ -42,7 +42,7 @@
     "tecnologias":["React.js", "Tailwind", "HTML"],
     "imagen":"portfolio.png",
     "id":3,
-    "description":"Proyecto de esta maravillosa web donde plasmo mi esencia, trabajo y código",
+    "description":"Project of this wonderful website where I express my essence, work and code.",
     "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"
      }                
     ]  

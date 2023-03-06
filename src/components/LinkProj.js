@@ -9,7 +9,7 @@ export default function LinkProj (props){
                 <li className="hover:text-white "><a href={props.demo} target='_blanck'><p>demo</p></a></li>
             </ul>
             :
-            <p className="hover:text-white">code</p>
+            <a href={props.github} target='_blanck'><p className="hover:text-white">&lt;code/&gt;</p></a>
         }
       
     </div>  
