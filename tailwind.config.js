@@ -16,6 +16,7 @@ module.exports = {
       },
       width: {
         '10p': '10%',
+        '60p':'60%'
       },
       variants: {
         animation: ["motion-safe"]

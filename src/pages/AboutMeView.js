@@ -4,7 +4,7 @@ import data from '../data/profileData.json'
 export default function AboutMe (){
     const [datatec, setData]= useState(data)
     return(
-        <section className="motion-safe:animate-fadeIn flex flex-col lg:align-start w-5/6 sm:w-4/6 2xl:w-4/6 m-auto gap-4 font-rale py-32 "  id='about'>
+        <section className="motion-safe:animate-fadeIn flex flex-col lg:align-start w-5/6 sm:w-4/6 2xl:w-60p m-auto gap-4 font-rale py-32 "  id='about'>
             <h2 className="col-span-2 text-4xl 2xl:text-5xl w-full underline decoration-lila font-bold text-center sm:text-start font-pompi">About me.</h2>
             <div className='flex flex-col md:flex-row gap-12 md:gap-4'>
                 <div className='md:w-6/12 w-full justify-center'>

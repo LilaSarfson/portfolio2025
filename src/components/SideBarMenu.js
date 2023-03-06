@@ -20,7 +20,7 @@ export default function SideBarMenu (props) {
                                         <img className='h-7 w-7  cursor-pointer transition-all hover:invert' src={github} alt='github'/></a>
                             </li>
                             <li class="p-5">
-                            <a href='/' target='_blanck'>
+                            <a href='/'>
                                         <img className='h-7 w-7 cursor-pointer transition-all hover:invert' src={home} alt='home'/></a>
                             </li>
                         </ul>

@@ -1,5 +1,5 @@
 import { useState } from "react"
-export default function ListChoice (props){
+export default function ChoicesHome (props){
 const [historyon, setHistoryOn] = useState(false)
      const displayOn = () =>{
         setHistoryOn(true)
