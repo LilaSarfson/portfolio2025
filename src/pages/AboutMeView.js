@@ -15,7 +15,7 @@ export default function AboutMe (){
                         <p>It's been a year and a half!</p>
                         <br/>
                         <li className='font-bold bg-lila w-max'>How did you start?</li>
-                        <p className='leading-relaxed'>I started by couriosity a course on web design, I loved it, because of that I decided to jumpe into it with a fullstack bootcamp and now, here I am!</p>
+                        <p className='leading-relaxed'>I started by couriosity a course on web design, I loved it, and because of that I decided to jumpe into it with a fullstack bootcamp and now, here I am!</p>
                         <br/>
                         <li className='font-bold bg-lila w-max'>Why?</li>
                         <p className='leading-relaxed'>I'm a very creative person and I love learn new things, and I think IT sector can give me so much of both, developing had made me build a new way to think and work. And that's why I'm incredible motivated to grow up as a developer!</p>
@@ -28,7 +28,7 @@ export default function AboutMe (){
                         <ul className='flex flex-row gap-2 sm:gap-8 mb-4 flex-wrap justify-center'>
                             {
                             datatec.tecnologias.map((tecno, index) =>{return (
-                                <li className='uppercase' key={index}><span className='text-lila'>✿</span>{tecno}</li>
+                                <li key={index}><span className='text-lila'>✿</span>{tecno}</li>
                             )})
                             }
                         </ul>
@@ -36,7 +36,7 @@ export default function AboutMe (){
                         <ul className='flex flex-row gap-2 sm:gap-8 flex-wrap justify-center'>
                             {
                             datatec.otrastecnologias.map((tecno, index) =>{return (
-                                <li className='self-end uppercase' key={index}><span className='text-lila'>✿</span>{tecno}</li>
+                                <li className='self-end' key={index}><span className='text-lila'>✿</span>{tecno}</li>
                             )})
                             }
                         </ul>

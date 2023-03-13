@@ -12,8 +12,8 @@ export default function ProfileApp (props){
                 <img className='w-5/12 xl:w-4/12 2xl:w-3/12' src={props.src} />
             </div>
             <div className='w-2/3 m-auto'>
-                <p>I'm a web developer and historian but,</p>
-                <p><span className="underline decoration-rojo ">every journy begins with a choice!</span></p>
+                <p>I'm a web developer and historian but,
+                <span className="underline decoration-rojo ">every journy begins with a choice!</span></p>
             </div>
          </div>
     )
