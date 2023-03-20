@@ -18,6 +18,7 @@ export default function DeveloperView (){
                 github={project.githubUrl}
                 imagen={project.imagen}
                 demo={project.demo}
+                alt={project.titulo}
                 />)})}
             </div>
         </section>    
