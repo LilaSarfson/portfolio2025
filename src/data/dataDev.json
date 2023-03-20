@@ -11,7 +11,7 @@
 {
     "titulo":"Freeway",
     "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
-    "imagen":"Freeway.png",
+    "imagen":"freeway.png",
     "id":2,
     "description":"Do you need help organizing your trips? Freeway is the solution. An easy App to save and manage all your travel informations",
     "githubUrl":"https://github.com/PlanificacionViaje",
@@ -30,7 +30,7 @@
 {
         "titulo":"CineSeat App",
         "tecnologias":["Vue.js", "Vuex", "Tailwind"],
-        "imagen":"Cinema.png",
+        "imagen":"cinema.png",
         "id":3,
         "description":"Management of the purchase and sale of cinema tickets. Data management is done through a global status using Vuex.",
         "githubUrl":"https://github.com/LilaSarfson/cinematest",
