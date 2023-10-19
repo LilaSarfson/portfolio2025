@@ -44,6 +44,14 @@
     "id":3,
     "description":"Project of this wonderful website where I express my essence, work and code.",
     "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"
-     }                
+     },
+     {
+        "titulo":"Arxiu Search",
+        "tecnologias":["React.js", "Tailwind", "HTML"],
+        "imagen":"",
+        "id":4,
+        "description":"Do you need to find some census information about Barcelona between 1930 to 1955? Arxiu Search it's your app.",
+        "githubUrl":"https://github.com/LilaSarfson/arxiu_finder"
+         }                   
     ]  
 }

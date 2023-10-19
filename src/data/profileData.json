@@ -1,5 +1,9 @@
 
     {
+    "aboutme":["Hi! My name is Lila Sarfson and I enjoy creating creative and useful things with the power of the code."],
+    "when":["It's been a year and a half!"],
+    "how":["I started by couriosity a course on web design, I loved it, and because of that I decided to jump into it with a fullstack bootcamp and now, here I am!"],
+    "why":["I'm a very creative person and I love learn new things, and I think IT sector can give me so much of both, development has made me build a new way to think and work. And that's why I'm incredible motivated to grow up as a developer!"],
     "tecnologias":["Vue.js", "Redux", "Python", "Tailwind"],
     "otrastecnologias":["Java", "SQL", "MongoDB", "BootStrap"]
      }
