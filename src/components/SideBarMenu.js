@@ -1,6 +1,4 @@
-import linkedin from '../assets/linkedin.png'
-import github from '../assets/github.png'
-import home from '../assets/up-arrow.png'
+
 import SideBar from './SideBar'
 export default function SideBarMenu (props) {
     return(
