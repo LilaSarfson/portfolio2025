@@ -14,7 +14,8 @@ export default function SideBar (props){
                          <img className='h-6 w-6 cursor-pointer text-gray-500 transition-all hover:invert' src={github} alt='github'/></a>
                 </li>
                 <li class="p-5">
-                    <a href='/'>
+                    <a href='#top
+                    '>
                     <img className='h-6 w-6 cursor-pointer text-gray-500 transition-all hover:invert' src={home} alt='home'/></a>
                 </li>
              </ul>

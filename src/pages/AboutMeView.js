@@ -9,16 +9,16 @@ export default function AboutMe (){
             <div className='flex flex-col md:flex-row gap-12 md:gap-4'>
                 <div className='md:w-6/12 w-full justify-center'>
                     <ul className="2xl:text-xl">
-                        <p className='leading-relaxed'>Hi! My name is Lila Sarfson and I enjoy creating creative and useful things with the power of the code.</p>
+                        <p className='leading-relaxed'>{datatec.aboutme}</p>
                         <br/>
                         <li className='font-bold bg-lila w-max'>Since when?</li>
-                        <p>It's been a year and a half!</p>
+                        <p>{datatec.when}</p>
                         <br/>
                         <li className='font-bold bg-lila w-max'>How did you start?</li>
-                        <p className='leading-relaxed'>I started by couriosity a course on web design, I loved it, and because of that I decided to jumpe into it with a fullstack bootcamp and now, here I am!</p>
+                        <p className='leading-relaxed'>{datatec.how}</p>
                         <br/>
                         <li className='font-bold bg-lila w-max'>Why?</li>
-                        <p className='leading-relaxed'>I'm a very creative person and I love learn new things, and I think IT sector can give me so much of both, developing had made me build a new way to think and work. And that's why I'm incredible motivated to grow up as a developer!</p>
+                        <p className='leading-relaxed'>{datatec.why}</p>
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 items-end  md:w-6/12 w-full'>

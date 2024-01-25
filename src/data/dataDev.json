@@ -1,4 +1,13 @@
 { "proyectos":[
+    {
+        "titulo":"Arxiu Search",
+        "tecnologias":["React.js","Zustand", "Tailwind"],
+        "imagen":"arxiuSearch.png",
+        "id":6,
+        "description":"Do you have to find a census book of the city of Barcelona after 1930? This app can help you, just go in and filter by street, dsitricte or year!",
+        "githubUrl":"https://github.com/LilaSarfson/project_arxiu",
+        "demo":""
+        },
      {
     "titulo":"Cine de Barrio",
     "tecnologias":["Vue.js", "CSS", "HTML", "BootStrap"],
@@ -41,9 +50,9 @@
     "titulo":"Portfolio Web",
     "tecnologias":["React.js", "Tailwind", "HTML"],
     "imagen":"portfolio.png",
-    "id":3,
+    "id":4,
     "description":"Project of this wonderful website where I express my essence, work and code.",
     "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"
-     }                
+     }         
     ]  
 }
