@@ -1,9 +1,9 @@
 
     {
-    "aboutme":["Hi! My name is Lila Sarfson and I have changed my field of work! I studied history at university and I have worked at archive the last two years while I studied web developing."],
+    "aboutme":["Hi! My name is Lila Sarfson, and I’ve switched careers! I studied history at university and worked in archives for the last two years while studying web development."],
     "when":["Since december 2021!"],
     "how":["I started by couriosity a course on web design, I loved it, and because of that I decided to jump into it with a fullstack bootcamp and now, here I am!"],
-    "why":["I'm a very creative person and I love learn new things, and I think IT sector can give me so much of both, development has made me build a new way to think and work. And that's why I'm incredible motivated to grow up as a developer!"],
+    "why":["I’m a very creative person who loves learning new things, and I believe the IT sector offers endless opportunities for both. Web development has helped me shape a new way of thinking and problem-solving. That’s why I’m incredibly motivated to grow as a developer!"],
     "tecnologias":["React.js", "Zustand", "Node.js", "Tailwind"],
-    "otrastecnologias":["Java", "SQL", "MongoDB", "Vue.js"]
+    "otrastecnologias":["Astro", "SQL", "Next.js", "Vue.js"]
      }

@@ -4,7 +4,7 @@ import FooterApp from './components/FooterApp'
 import ContactView from "./pages/ContactView";
 import DeveloperView from "./pages/DeveloperView";
 import SideBarMenu from "./components/SideBarMenu";
-import HistoryView from "./pages/HistoryView";
+import CustomCursor from './components/CustomCursor'
 import './index.css'
 import { useState } from "react";
 function App() {
@@ -14,16 +14,14 @@ function App() {
 
   }
   return (
-    <div className="App relative">
+    <div className="App transition-colors duration-1000  bg-amarillo dark:bg-purpura dark:text-blancoRoto min-h-screen relative  motion-safe:animate-fadeIn">
+      <CustomCursor/>
       <SideBarMenu estado='hidden lg:flex'/>
       <HomeView
       display={getChildData}
       />
       <AboutMe/>
       <DeveloperView/>
-      <HistoryView
-      display = {display}
-      />
       <ContactView/>
       <FooterApp/>
     </div>

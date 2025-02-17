@@ -2,9 +2,9 @@ import Hello from '../assets/hello.png'
 import SideBar from '../components/SideBar'
 export default function ContactView (){
     return(
-        <section id='contact' className="z-0 motion-safe:animate-fadeIn m-auto w-5/6 sm:w-4/6 h-2/3 sm:h-4/6 justify-around flex flex-col items-center font-rale">
+        <section id='contact' className="z-0 motion-safe:animate-fadeIn m-auto w-5/6 sm:w-4/6 h-2/3 sm:h-4/6 justify-around flex flex-col items-center font-rale min-h-screen ">
             <div className='flex flex-col justify-center items-center h-3/6'>
-                <h2 className='font-pompi font-bold underline decoration-verde text-4xl mb-4'>Contact.</h2>
+                <h2 className='font-pompi font-bold underline decoration-verde text-4xl 2xl:text-5xl mb-4'>Contact.</h2>
                 <div className='flex flex-col lg:flex-row justify-center self-center gap-8 items-center'>
                     <div className='2xl:text-xl text-center'>                    
                         <p className='mb-2'>Did you find it interesting? Let's talk<span className='text-verde font-bold'>!</span></p>
@@ -15,11 +15,11 @@ export default function ContactView (){
                         <p className='hover:underline decoration-wavy decoration-verde text-center'><a href='mailto:lilamandarina@hotmail.com' className='not-italic'>lilamandarina@hotmail.com →</a></p>
                         </address>
                     </div>
-                    <img className='w-2/12' src={Hello}/>
+                    <img className='w-2/12 dark:invert' src={Hello} alt='me'/>
                 </div>
             </div>
             <div className='relative w-full'>
-                <p className='text-center text-sm w-full absolute bottom-0'>©2023 Designed and built by Lila Sarfson</p>
+                <p className='text-center text-sm w-full absolute bottom-0'>©2024 Designed and built by Lila Sarfson</p>
             </div>
         </section>    
     )

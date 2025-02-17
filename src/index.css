@@ -2,7 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #app, .App, #root, #app>div {
-    height: 100vh;
-    background-color:rgb(251, 223, 64);
+  @layer base {
+    html {
+      scroll-behavior: smooth;
+    }
   }
+  
+@font-face {
+  font-family: 'EdgyBolder';
+  src: url('assets/fonts/StudioFeixenEdgyTRIAL-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  
+}
+@font-face {
+  font-family: 'NoiMedium';
+  src: url('assets/fonts/NoiGroteskTrial-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+
+  
+}
+
+@font-face {
+  font-family: 'EdgyRegular';
+  src: url('assets/fonts/StudioFeixenEdgyTRIAL-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  
+}

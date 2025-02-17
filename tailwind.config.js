@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+   darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -21,6 +22,22 @@ module.exports = {
       variants: {
         animation: ["motion-safe"]
       },
+      fontFamily:{
+        edgybolder: ['EdgyBolder', 'sans-serif'],
+        NoiMedium: ['NoiMedium'],
+        edgyregular: ['EdgyRegular'],
+
+      },
+      backgroundImage:{
+        'custom-gradient-1': 'linear-gradient(90deg, rgba(251,223,64,1) 0%, rgba(246,142,178,1) 100%)',
+
+        // Segundo gradiente - 275 grados
+        'custom-gradient-2': 'linear-gradient(275deg, rgba(251,223,64,1) 0%, rgba(246,142,178,1) 100%)',
+        'dark-gradient-1': 'linear-gradient(90deg, rgba(80,22,240,1) 0%, rgba(246,142,178,1) 100%)',
+
+        // Gradiente morado a rosa - 275 grados
+        'dark-gradient-2': 'linear-gradient(275deg, rgba(80,22,240,1) 0%, rgba(246,142,178,1) 100%)'
+      },
       colors:{
         'lila':'rgb(160, 175, 229)',
         'amarillo':'rgb(251, 223, 64)',
@@ -29,7 +46,13 @@ module.exports = {
         'rojo':'rgb(245, 49, 11)',
         'azul':'rgb(203, 231, 233)',
         'azul-css':	'rgb(30,144,255)',
-        'oscuro':'rgb(245, 221, 69)'
+        'oscuro':'rgb(245, 221, 69)',
+        'rosafuerte':'#7F1338',
+        'blancomasroto': '#E5E5E5',
+        'blancoRoto':'#F9F9F9',
+        'purpura': '#5016f0',
+        'naranjaElectrico': '#FF5525'
+      
       },
       screens: {
         'sm': '640px',

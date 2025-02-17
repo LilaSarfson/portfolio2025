@@ -4,7 +4,7 @@
         "tecnologias":["React.js","Zustand", "Tailwind"],
         "imagen":"arxiuSearch.png",
         "id":6,
-        "description":"Do you have to find a census book of the city of Barcelona after 1930? This app can help you, just go in and filter by street, dsitricte or year!",
+        "description":"Do you need to find a census book for the city of Barcelona from after 1930? This app can help you! Just enter and filter by street, district, or year.",
         "githubUrl":"https://github.com/LilaSarfson/project_arxiu",
         "demo":""
         },
@@ -13,7 +13,7 @@
     "tecnologias":["Vue.js", "CSS", "HTML", "BootStrap"],
     "imagen":"cineBarrio.png",
     "id":1,
-    "description":"Just like the hanged game but guessing movies! Designed for seniors to exercise their memory by recalling their favorite movies. ",
+    "description":"It's just like the hangman game, but with movies! Designed for seniors to exercise their memory by recalling their favorite films.",
     "githubUrl":"https://github.com/Singulars2022/cinedebarrio",
     "demo":"https://cinedebarrio-pi.vercel.app/"
     },
@@ -22,7 +22,7 @@
     "tecnologias":["Vue.js", "CSS", "HTML", "Java", "SQL"],
     "imagen":"freeway.png",
     "id":2,
-    "description":"Do you need help organizing your trips? Freeway is the solution. An easy App to save and manage all your travel informations",
+    "description":"Do you need help organizing your trips? Freeway is the solution. An easy App to save and manage all your travel information",
     "githubUrl":"https://github.com/PlanificacionViaje",
     "demo":""
     },
@@ -41,7 +41,7 @@
         "tecnologias":["Vue.js", "Vuex", "Tailwind"],
         "imagen":"cinema.png",
         "id":3,
-        "description":"Management of the purchase and sale of cinema tickets. Data management is done through a global status using Vuex.",
+        "description":"Management of cinema ticket sales and purchases. Data management is handled through a global state using Vuex.",
         "githubUrl":"https://github.com/LilaSarfson/cinematest",
         "demo":""
 
@@ -51,7 +51,7 @@
     "tecnologias":["React.js", "Tailwind", "HTML"],
     "imagen":"portfolio.png",
     "id":4,
-    "description":"Project of this wonderful website where I express my essence, work and code.",
+    "description":"This wonderful website where I express my essence, work and code.",
     "githubUrl":"https://github.com/LilaSarfson/PortfolioDefinitivo"
      }         
     ]  
