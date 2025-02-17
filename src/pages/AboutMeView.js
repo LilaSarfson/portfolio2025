@@ -22,7 +22,7 @@ export default function AboutMe (){
                     </ul>
                 </div>
                 <div className='flex flex-col gap-4 items-end  md:w-6/12 w-full'>
-                    <img className=' md:w-8/12 w-6/12 2xl:w-6/12 outline outline-offset-2 outline-4 outline-black dark:outline-white rounded-md self-center' src={perfil}/>    
+                    <img className=' md:w-8/12 w-6/12 2xl:w-6/12 outline outline-offset-2 outline-4 outline-black dark:outline-white rounded-md self-center' src={perfil} alt='perfil'/>    
                     <div className='text-md text-black dark:text-blancoRoto text-center self-center w-5/6'>
                             <p className=' font-bold'>Technologies I’ve been working with recently:</p>
                         <ul className='flex flex-row gap-2 sm:gap-8 mb-4 flex-wrap justify-center'>
